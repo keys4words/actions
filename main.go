@@ -10,6 +10,6 @@ func main() {
 }
 
 
-func TestMain(t *testing.T) {
+func TestPass (t *testing.T) {
   fmt.Println("Test passed")
 }
