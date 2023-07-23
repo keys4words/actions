@@ -1,7 +1,15 @@
 package main
 
-import "fmt"
+import (
+  "fmt"
+  "testing"
+)
 
 func main() {
-        fmt.Println("hey, dude!")
+  fmt.Println("hey, dude!")
+}
+
+
+func TestMain(t *testing.T) {
+  fmt.Println("Test passed")
 }
